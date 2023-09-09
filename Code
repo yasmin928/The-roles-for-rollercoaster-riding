@@ -1,0 +1,19 @@
+print("Welcome to the rollercoaster!")
+
+#Ask user to input his height and converting the number into int
+height = int(input("What is your height in cm? "))
+
+#checking the hight
+if height >= 120:
+  print("You can ride the rollercoaster! ")
+  #Nested if statements and elif statements
+  age = int(input("What is your age? "))
+  if age < 12 :
+    print("Pleas pay $5.")
+  #too add many conditions just use elif  
+  elif age <= 18 :
+    print("Pleas pay $7.")  
+  else:
+    print("Pleas pay $12.")
+else:
+  print("Sorry, You have to groe taller brfore you can ride.")
