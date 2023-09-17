@@ -21,7 +21,7 @@ if height >= 120:
     bill = 7
   #Using Logical operators
   #give the Midifile crisis a free ride
-   elif age >= 45 and age <= 55:
+  elif age >= 45 and age <= 55:
     print("Everything is going to be ok. Have a free ride on us!")  
   else:
     print("Pleas pay $12.")
